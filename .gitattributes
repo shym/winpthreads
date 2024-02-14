@@ -1,0 +1,22 @@
+# Default behaviour, for if core.autocrlf isn't set
+* text=auto
+
+# Shell scripts need Unix line endings
+scripts/gen_install.sh text eol=lf
+
+# Files not needed in the archive
+.gitattributes export-ignore
+Makefile.am export-ignore
+Makefile.in export-ignore
+aclocal.m4 export-ignore
+build-aux export-ignore
+config.h.in export-ignore
+configure export-ignore
+configure.ac export-ignore
+m4 export-ignore
+scripts export-ignore
+src/libgcc/* export-ignore
+src/version.rc export-ignore
+tests export-ignore
+tests_pthread export-ignore
+winpthreads.opam export-ignore

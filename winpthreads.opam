@@ -1,0 +1,9 @@
+opam-version: "2.0"
+authors: "mingw-w64 project"
+maintainer: "David Allsopp <david@tarides.com>"
+bug-reports: "https://github.com/ocaml/winpthreads/issues"
+homepage: "https://github.com/ocaml/winpthreads#readme"
+license: "BSD-3-Clause AND MIT"
+synopsis: "Posix Threads for Windows (winpthreads) Sources"
+description: "Source package for winpthreads. Installs the required files for
+compiling winpthreads as part of an MSVC OCaml build."

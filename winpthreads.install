@@ -1,0 +1,30 @@
+share: [
+  "include\\pthread.h" {"include\\pthread.h"}
+  "include\\pthread_compat.h" {"include\\pthread_compat.h"}
+  "include\\pthread_signal.h" {"include\\pthread_signal.h"}
+  "include\\pthread_time.h" {"include\\pthread_time.h"}
+  "include\\pthread_unistd.h" {"include\\pthread_unistd.h"}
+  "include\\sched.h" {"include\\sched.h"}
+  "include\\semaphore.h" {"include\\semaphore.h"}
+  "src\\barrier.c" {"src\\barrier.c"}
+  "src\\barrier.h" {"src\\barrier.h"}
+  "src\\clock.c" {"src\\clock.c"}
+  "src\\cond.c" {"src\\cond.c"}
+  "src\\cond.h" {"src\\cond.h"}
+  "src\\misc.c" {"src\\misc.c"}
+  "src\\misc.h" {"src\\misc.h"}
+  "src\\mutex.c" {"src\\mutex.c"}
+  "src\\nanosleep.c" {"src\\nanosleep.c"}
+  "src\\ref.c" {"src\\ref.c"}
+  "src\\ref.h" {"src\\ref.h"}
+  "src\\rwlock.c" {"src\\rwlock.c"}
+  "src\\rwlock.h" {"src\\rwlock.h"}
+  "src\\sched.c" {"src\\sched.c"}
+  "src\\sem.c" {"src\\sem.c"}
+  "src\\sem.h" {"src\\sem.h"}
+  "src\\spinlock.c" {"src\\spinlock.c"}
+  "src\\thread.c" {"src\\thread.c"}
+  "src\\thread.h" {"src\\thread.h"}
+  "src\\winpthread_internal.h" {"src\\winpthread_internal.h"}
+  "src\\wpth_ver.h" {"src\\wpth_ver.h"}
+]
