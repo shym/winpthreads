@@ -1,9 +1,10 @@
-#!/bin/sh
+#!/bin/bash
 
-echo 'share: ['
+printf 'share: [\n'
 
-for file in $(ls include/*.h src/*.h src/*.c | sort | sed -e 's|/|\\\\|g'); do
-  echo "  \"$file\" {\"$file\"}"
+for file in include/*.h src/*.[ch]; do
+  f="${file//\//\\\\}"
+  printf '  "%s" {"%s"}\n' "$f" "$f"
 done
 
-echo ']'
+printf ']\n'
